@@ -1,0 +1,11 @@
+{
+  "name": "ssh-node-server",
+  "version": "1.0.0",
+  "description": "A test server to connect to a remote box via ssh",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kudakwashe Paradzayi <kgparadzayi@gmail.com>",
+  "license": "ISC"
+}
