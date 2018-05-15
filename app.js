@@ -1,6 +1,6 @@
 const http = require('http')
 const handler = function (req, res) {
-  res.end(`Hi. I am actually working. Time on my end is ${new Date}`)
+  res.end(`Hi. I am the development server working. Time on my end is ${new Date}`)
 }
 const server = http.createServer(handler)
 
