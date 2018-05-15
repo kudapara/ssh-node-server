@@ -4,6 +4,8 @@ const handler = function (req, res) {
 }
 const server = http.createServer(handler)
 
-server.listen(3000, () => {
-  console.log(`Application running on port 3000`)
+const port = process.env.NODE_ENV || 3000
+
+server.listen(port, () => {
+  console.log(`Application running on port ${port}`)
 })
